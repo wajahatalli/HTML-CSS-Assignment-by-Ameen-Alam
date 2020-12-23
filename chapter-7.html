@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="chapter-7.css"/>
+  </head>
+  <body>
+    <h1><strong>Chapter # 7 - Forms</strong></h1>
+    <form action="/action_page.php">
+      <div class="a">
+        <p>Your Details</p>
+        Name: <input type="text" placeholder="Full Name" required=""/>
+        <br />
+        <br />
+        Email: <input type="email" placeholder="Mailing Address" required=""/>
+      </div>
+      
+      <div class="b">
+        <p>Your Review:</p>
+        How did you hear about us?
+        <select name="hear" id="hear">
+          <option value="google">Google</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="facebook">Facebook</option>
+          <option value="instagram">Instagram</option>
+        </select>
+        <br />
+        <br />
+        Will you visit again?
+        <br />
+        <input type="radio" value="yes" /> Yes
+        <input type="radio" value="no" /> No
+        <input type="radio" value="maybe" /> Maybe
+        <br />
+        <br />
+        Comments:
+        <br />
+        <textarea>
+        </textarea>
+        <br />
+        <br />
+        <input type="checkbox" /> Sign me up for E-Mail updates
+        <br />
+        <button type="submit">Submit review</button>     
+      </div>
+    </form>
+  </body>
+</html>
