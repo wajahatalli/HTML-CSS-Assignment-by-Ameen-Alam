@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    width:auto;
+    width: auto;
     margin: 0%;
 }
 
@@ -22,8 +22,41 @@ body{
 }
 
 .nr {
+    display: flex;
+    justify-content: center;
     color: white;
     text-decoration: none;
     float: right;
-    margin-bottom: 20px;
+    
+}
+.p1 , .p2 {
+    margin-top: 15px;
+
+}
+.bt {
+    background-color: green;
+    margin-left: 10px;
+}
+.bt:hover {
+    cursor: pointer;
+}
+
+.shnv {
+    float: right;
+    padding: 50px;
+    color: black;
+    
+}
+
+#lk {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+#ik:hover { 
+    cursor: pointer;
+}
+#ik:active {
+    border-bottom: brown;
 }
