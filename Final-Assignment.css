@@ -59,3 +59,8 @@ body{
 #ik:active {
     border-bottom: brown;
 }
+#tb{
+    height: 500px;
+    width: 100%;
+    background-image: url(Logos-Images\wallpapertip_green-wallpaper-hd_28472.jpg);
+}
