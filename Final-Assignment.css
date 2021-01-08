@@ -34,7 +34,7 @@ body{
 
 }
 .bt {
-    background-color: green;
+    background-color:#2ECC71 ;
     margin-left: 10px;
 }
 .bt:hover {
@@ -62,5 +62,6 @@ body{
 #tb{
     height: 500px;
     width: 100%;
-    background-image: url(Logos-Images\wallpapertip_green-wallpaper-hd_28472.jpg);
+    background-color: #2ECC71 ;
+    text-align: center;
 }
