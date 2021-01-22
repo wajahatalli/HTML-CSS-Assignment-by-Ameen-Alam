@@ -79,7 +79,11 @@ body{
     background-color: orange;
     padding: 5px 10px;
 }
-  
+
+#tb1 {  
+    width: 100%;
+    height: 50px;
+}
 .responsive {
     margin-top: 70px;
     float: left;
@@ -107,11 +111,17 @@ body{
 }
 
 .lorem {
-    size: 5px;
+    font-size: 0.9em;
     color: lightgray;
     margin-top: 10px;
 }
 
-.logo {
-    box-shadow: lightgray 20px;
+#tb2 {
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+}
+
+.abc {
+
 }
