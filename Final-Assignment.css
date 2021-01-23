@@ -124,5 +124,18 @@ body{
 
 .abc {
     text-align: center;
-    
+    position: top;
+}
+
+.bc {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.readmore {
+    float: left;
+    position: relative;
+    background-color: orange;
+    padding: 10px 20px;
+    margin-left: 30px;
 }
