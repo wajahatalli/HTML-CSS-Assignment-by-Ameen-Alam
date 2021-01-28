@@ -274,12 +274,12 @@ body{
 
 .proj {
     width: 100%;
-    height: 300px;
+    margin-bottom: 50px;
 }
 
 .adv-3 {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     margin-top: 20px;
 }
 
@@ -287,5 +287,23 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    
+}
+
+#email , #name , #phone {
+    border-radius: 20px ;
+    height: 50px;
+    width: 20%;
+    text-decoration: none;
+}
+
+#sr {
+    border-radius: 20px ;
+    height: 50px;
+    width: 10em;
+    text-decoration: none;
+    background-color: orange;
+}
+
+#sr:hover {
+    cursor: pointer;
 }
